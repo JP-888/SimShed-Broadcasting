@@ -159,3 +159,32 @@ p{
 
 /* Rows */
 
+.row{
+    margin-top: 0%;
+    display: display-bo;
+    justify-content: space-between;
+}
+
+.about-col{
+    flex-basis: auto;
+    background-image: url(images/real_cf.png);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
+h3{
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+p{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
