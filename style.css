@@ -156,11 +156,13 @@ nav .fa{
 
 .about{
     min-height: 100vh;
-    width: 100%;
+    width: 94.9%;
     background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(images/image2.png);
     background-position: center;
     background-size: cover;
     position: relative;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 h1{
@@ -203,7 +205,7 @@ h3{
 }
 
 .about-col:hover{
-    box-shadow: 0 0 20px 0px rgb(243, 239, 4);
+    box-shadow: 0 0 20px 0px rgb(243, 239, 4, 0.2);
 }
 
 p{
@@ -214,83 +216,41 @@ p{
     padding: 10px;
 }
 
-/* Our Partners */
+/* Broadcasting */
 
-.our-partners{
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 50px;
-}
-
-/* Our Partners */
-
-.our-partners{
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 50px;
-}
-
-.sponsor-items-wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-
-  .sponsor-item-wrapper{
-    position: relative;
-  }
-
-  .sponsor-img-background {
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 150px;
-    width: 150PX;
-  }
-
-  .img-text-wrapper {
-    position: absolute;
-    top: 0;
+.broadcast-row{
+    margin-top: 5%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    text-align: center;
-    padding-left: 100px;
-    padding-right: 100px;
-  }
+    justify-content: space-between;
+}
 
-  .img-text-wrapper .subtitle {
-    transition: 1s;
-    color: transparent;
-  }
+.broadcast-col1{
+    flex-basis: 31%;
+    background-image: url(images/nts.png);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    width: 200%;
+    transition: 0.5s;
+}
 
-  .image-blur {
-    transition: 1s;
-    filter: brightness(10%);
-  }
+.broadcast-col2{
+    flex-basis: 31%;
+    background-image: url(images/real_cf.png);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
 
-  .img-text-wrapper:hover .subtitle {
-    color: lightseagreen;
-    font-weight: 600;
-  }
-
-  .content-wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-
-  .profile-image-wrapper img {
-    width: 100%;
-  }
-
-  .profile-content-wrapper {
-    padding: 30px;
-  }
-
-  .profile-content-wrapper h1 {
-    color: lightseagreen;
-  }
-
+.broadcast-col3{
+    flex-basis: 31%;
+    background-image: url(images/real_cf.png);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
