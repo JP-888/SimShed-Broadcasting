@@ -267,7 +267,7 @@ p{
 .partners{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(images/image2.png);
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(images/image4.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -325,23 +325,6 @@ p{
 	transform: scale(1.05);
 }
 
-.xop-img-1 {
-	background: url(images/dsl.png);
-}
 
-.xop-img-2 {
-	background: url(images/bslh.png);
-}
 
-.xop-img-3 {
-	background: url(images/racekraft.png);
-}
-
-.xop-img-4 {
-	background: url(images/tcfg.png);
-}
-
-.xop-img-5 {
-	background: url(images/sdk.png);
-}
 
