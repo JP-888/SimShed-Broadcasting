@@ -147,11 +147,43 @@ nav .fa{
 
 /* ABOUT Section */
 
+.nav-links-about{
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links-about ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 12px;
+    position: relative;
+}
+
+.nav-links-about ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.nav-links-about ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links-about ul li:hover::after{
+    width: 100%;
+}
+
 .about{
     width: 80%;
     margin: auto;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 10px;
 }
 
 .about{
@@ -261,7 +293,7 @@ p{
     width: 80%;
     margin: auto;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 10px;
 }
 
 .partners{
@@ -325,6 +357,57 @@ p{
 	transform: scale(1.05);
 }
 
+/* Register to Race Section */
+
+.register{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.register{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(images/image4.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.nav-links-register{
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links-register ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 12px;
+    position: relative;
+}
+
+.nav-links-register ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.nav-links-register ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links-register ul li:hover::after{
+    width: 100%;
+}
 
 
 
